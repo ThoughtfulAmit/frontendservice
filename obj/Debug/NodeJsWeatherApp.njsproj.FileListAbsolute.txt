@@ -1,0 +1,2 @@
+C:\Users\bdeosthale\Documents\Deloitte_ConsultingCloudEngg_Projects\DevOps Bootcamp\sample-Firestore\external\obj\Debug\NodeJsWeatherApp.njsproj.CoreCompileInputs.cache
+C:\Users\bdeosthale\Documents\Deloitte_ConsultingCloudEngg_Projects\DevOps Bootcamp\sample-Firestore\external\bin\Microsoft.NodejsTools.WebRole.dll

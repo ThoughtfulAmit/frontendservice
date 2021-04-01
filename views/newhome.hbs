@@ -1,0 +1,14 @@
+<ul style="list-style: none;">
+    {{#body}}
+    <li style="float: left;">
+        <div class="card" style="width: 20rem; margin-left: 1rem;">
+            <div class="card-body">
+                <h5 class="card-title" align="center"> Date: {{this.date}}</h5>
+                <p class="card-body" align="left">Celsius: {{this.temperatureC}}</p>
+                <p class="card-text"  align="left">Fahrenheit: {{this.temperatureF}}</p>
+                <p class="card-body"  align="left">It is: {{this.summary}}</p>
+            </div>
+        </div>
+    </li>
+    {{/body}}
+</ul>
