@@ -8,7 +8,7 @@
     "test": "SERVER=http://localhost:5000 nyc mocha --exit"
   },
   "keywords": [],
-  "author": "",
+  "author": "Boot camp test",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
