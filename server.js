@@ -22,7 +22,7 @@ const hbs = require('express-handlebars');
 // details here: https://www.npmjs.com/package/request
 var request = require('request');
 
-// create the server
+/ create the server
 const app = express();
 
 // set up handlbars as the templating engine
