@@ -175,8 +175,8 @@ const server = app.listen(PORT, () => {
     const host = server.address().address;
     const port = server.address().port;
 
-    console.log(`Weather app listening at http://${host}:${port}`);
-    console.log('test change');
+    console.log(`Weather front end app listening at http://${host}:${port}`);
+    console.log('test change2');
 });
 
 module.exports = app;
