@@ -7,9 +7,9 @@ describe('GET /', function () {
   it('responds with home page', function (done) {
 
     //specify the url to be intercepted
-    nock("http://localhost:8082")
+    nock("http://localhost:8095")
       //define the method to be intercepted
-      .get('/events')
+      .get('/weatherforecast')
       //respond with a OK and the specified JSON response
       .reply(200, {
         "status": 200,
@@ -37,7 +37,7 @@ describe('GET /', function () {
 
   it('should display page when the backend is down', function (done) {
     //specify the url to be intercepted
-    nock("http://localhost:8082")
+    nock("http://localhost:5000")
       //define the method to be intercepted
       .get('/events')
       //respond with an error
@@ -60,7 +60,7 @@ describe('GET /', function () {
 
 });
 
-
+/*
 
 describe('POST /event', function () {
   it('adds an event', function (done) {
@@ -159,6 +159,7 @@ describe('POST /event/unlike', function () {
 
   });
 });
+*/
 
 
 
